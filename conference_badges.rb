@@ -14,4 +14,8 @@ def assign_rooms(number)
   return "Hello, #{name}! You'll be assigned to room #{number}"
   
 end 
-   def printer 
+   def printer(people)
+  batch_badge_creator(attendees).each do |badge|
+    puts badge
+  end
+   
